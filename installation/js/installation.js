@@ -50,7 +50,7 @@ $(document).ready(function() {
         type:           "get",
         dataType:       "json"
     };
-
+    "use strict";
     function showRestart(){
         $("#step0").addClass("hidden");
         $("#step1").addClass("hidden");
